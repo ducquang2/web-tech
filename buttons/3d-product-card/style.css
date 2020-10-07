@@ -39,7 +39,7 @@ body
 
 .container .box::before
 {
-    content: "Nike";
+    content: "Game";
     position: absolute;
     top: 20px;
     left: 20px;
@@ -64,8 +64,8 @@ body
     transition: 0.5s;
 }
 
-.container .box::before,
-.container .box::after
+.container .box:hover::before,
+.container .box:hover::after
 {
     opacity: 0.04;
 }
@@ -85,7 +85,7 @@ body
     z-index: 10;
 }
 
-.container .box::hover .name
+.container .box:hover .name
 {
     top: 40px;
     opacity: 1;
