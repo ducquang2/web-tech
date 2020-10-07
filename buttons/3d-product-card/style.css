@@ -108,7 +108,7 @@ body
     z-index: 10;
 }
 
-.container .box::hover .buy
+.container .box:hover .buy
 {
     bottom: 30px;
     opacity: 1;
