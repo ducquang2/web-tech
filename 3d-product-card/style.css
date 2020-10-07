@@ -39,20 +39,20 @@ body
 
 .container .box::before
 {
-    content: "Game";
+    content: "Damn";
     position: absolute;
     top: 20px;
-    left: 20px;
-    font-size: 6em;
+    left: -5px;
+    font-size: 5em;
     font-weight: 900;
-    color: #232323;
+    color: #000000;
     font-style: italic;
     opacity: 0;
 }
 
 .container .box::after
 {
-    content: "Aloo";
+    content: "boii";
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -67,7 +67,7 @@ body
 .container .box:hover::before,
 .container .box:hover::after
 {
-    opacity: 0.04;
+    opacity: 0.1;
 }
 
 .container .box .name
@@ -152,4 +152,16 @@ body
 .container .box:nth-child(1) .buy
 {
     background: #14e65a;
+}
+
+.container .box:nth-child(2) .circle,
+.container .box:nth-child(2) .buy
+{
+    background: #131313;
+}
+
+.container .box:nth-child(3) .circle,
+.container .box:nth-child(3) .buy
+{
+    background: rgb(159, 201, 44);
 }
