@@ -126,6 +126,24 @@ body
     background: #fff;
     transform-style: preserve-3d;
     z-index: 10;
-    opacity: 1;
+    opacity: 0;
     transform: translate3d(-50%, -50%, 50px);
+}
+
+.container .box:hover .circle
+{
+    opacity: 1;
+}
+
+.container .box .product
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 300px;
+    transition: 0.5s;
+    z-index: 11;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%, -50%, 0px) rotate(-15deg);
 }
