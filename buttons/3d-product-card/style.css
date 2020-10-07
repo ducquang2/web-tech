@@ -21,4 +21,15 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    transform-style: preserve-3d;
+}
+
+.container .box
+{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 40px;
 }
