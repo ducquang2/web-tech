@@ -36,3 +36,10 @@ body
     border-radius: 20px;
     transform-style: preserve-3d;
 }
+
+.container .box::before
+{
+    content: "";
+    position: absolute;
+    top: 20px;
+}
