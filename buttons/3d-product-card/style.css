@@ -32,4 +32,7 @@ body
     width: 300px;
     height: 400px;
     margin: 40px;
+    background: #232323;
+    border-radius: 20px;
+    transform-style: preserve-3d;
 }
