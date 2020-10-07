@@ -90,3 +90,10 @@ body
     top: 40px;
     opacity: 1;
 }
+
+.container .box .buy
+{
+    position: absolute;
+    bottom: 0;
+    
+}
