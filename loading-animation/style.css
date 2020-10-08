@@ -1,4 +1,29 @@
 *
 {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #042104;
+}
+
+section .loader
+{
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+section .loader span
+{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
