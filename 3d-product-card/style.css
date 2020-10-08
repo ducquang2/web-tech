@@ -145,7 +145,12 @@ body
     z-index: 11;
     transition: 0.5s;
     transform-style: preserve-3d;
-    transform: translate3d(-50%, -50%, 50px);
+    transform: translate3d(-50%, -50%, 10px);
+}
+
+.container .box:hover .product
+{
+    transform: translate3d(-50%, -50%, 100px);
 }
 
 .container .box:nth-child(1) .circle,
