@@ -12,6 +12,7 @@ section
     align-items: center;
     min-height: 100vh;
     background: #042104;
+    animation: animateBG 10s linear infinite;
 }
 
 section .loader
