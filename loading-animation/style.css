@@ -60,4 +60,10 @@ section .loader span::before
                 0 0 60px #00ff0a,
                 0 0 80px #00ff0a,
                 0 0 100px #00ff0a;
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate
+{
+    
 }
