@@ -21,3 +21,10 @@ section
     justify-content: center;
     align-items: center;
 }
+
+ul
+{
+    display: flex;
+    flex-direction: column;
+}
+
