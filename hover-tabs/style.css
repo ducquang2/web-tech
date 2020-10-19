@@ -3,7 +3,10 @@
     box-sizing: border-box
 }
 
-body {font-family: "Lato", sans-serif;}
+body 
+{
+    font-family: "Lato", sans-serif;
+}
 
 /* Style the tab */
 .tab {
