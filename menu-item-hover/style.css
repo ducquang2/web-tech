@@ -54,9 +54,11 @@ ul li a::before
     height: 100%;
     overflow: hidden;
     z-index: -1;
-    text-align: 3em;
+    text-align: center;
+    font-size: 3em;
     color: #2196f3;
     opacity: 0;
+    line-height: 100vh;
     transition: 0.5s;
 }
 
