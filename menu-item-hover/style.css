@@ -43,3 +43,8 @@ ul li a
     color: #fff;
     text-transform: uppercase;
 }
+
+ul li a::before
+{
+    
+}
