@@ -20,6 +20,20 @@ body {
 .container .card {
     position: relative;
     border-radius: 10px;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+}
+
+.container .card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+}
+
+.container .card:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
 }
 
 .container .card .icon {
@@ -82,10 +96,10 @@ i {
     transform: translateY(100px);
 }
 
-.container .card:hover .face.face1{
+/* .container .card:hover .face.face1{
     background: #ff0057;
     transform: translateY(0px);
-}
+} */
 
 .container .card .face.face1 .content {
     opacity: 1;
@@ -113,7 +127,7 @@ i {
 }
 
 .container .card:hover .face.face2{
-    transform: translateY(0);
+    transform: translateY(100px);
 }
 
 .container .card .face.face2 .content p {
