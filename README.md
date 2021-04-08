@@ -1,2 +1,2 @@
 # web-tech
-this might help when make web
+this might help when make html web
