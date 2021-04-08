@@ -112,11 +112,69 @@ section::before
     letter-spacing: 1px;
     text-transform: uppercase;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-    z-index: 12;
+    z-index: 1;
+    pointer-events: none;
+    transition: bottom 0.5s, z-index 0s, transform 0.5s, padding 0.5s;
+    transition-delay: 0.5s, 0.5s, 0s, 0.5s;
     color: #fff;
+}
+
+.card:hover .text
+{
+    transition-delay: 0s, 0.5s, 0.5s, 0s;
+    bottom: -70px;
+    z-index: 11;
+    transform: translateX(-50%) translateY(-50px);
+    padding: 10px 20px 10px;
+}
+
+.card:nth-child(1) .text
+{
+    background: #ff0461;
+}
+.card:nth-child(2) .text
+{
+    background: #2bd2ff;
+}
+.card:nth-child(3) .text
+{
+    background: #18d539;
 }
 
 svg
 {
-    display: none;
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+svg circle
+{
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke-width: 10;
+    stroke: rgba(255, 255, 255, 0.05);
+    transform: translate(5px, 5px);
+    stroke-linecap: round;
+}
+
+svg circle:nth-child(2)
+{
+    stroke: #fff;
+    stroke-dasharray: 440px;
+    stroke-dashoffset: 440px;
+}
+
+.card:nth-child(1) svg circle:nth-child(2)
+{
+    stroke-dashoffset: calc(440px - (440px * 90) / 100);
+}
+.card:nth-child(2) svg circle:nth-child(2)
+{
+    stroke-dashoffset: calc(440px - (440px * 82) / 100);
+}
+.card:nth-child(3) svg circle:nth-child(2)
+{
+    stroke-dashoffset: calc(440px - (440px * 65) / 100);
 }
